@@ -1,0 +1,69 @@
+{
+  "name": "@front10/generative-ui",
+  "version": "1.0.0",
+  "description": "A complete abstraction for creating generative UI components that automatically display when specific tools are executed in chat",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./examples": {
+      "import": "./dist/examples/index.mjs",
+      "require": "./dist/examples/index.js",
+      "types": "./dist/examples/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "generative-ui",
+    "ai",
+    "chat",
+    "react",
+    "typescript",
+    "vercel-ai-sdk",
+    "ui-components",
+    "tool-calls"
+  ],
+  "author": "Front10",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "ai": "5.0.0-beta.6"
+  },
+  "dependencies": {
+    "clsx": "^2.0.0",
+    "zustand": "^4.5.0",
+    "lucide-react": "^0.446.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/front10/generative-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/front10/generative-ui/issues"
+  },
+  "homepage": "https://github.com/front10/generative-ui#readme"
+}
