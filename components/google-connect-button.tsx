@@ -34,7 +34,9 @@ export function GoogleConnectButton({
       disabled={isLoading}
     >
       {isLoading ? (
-        <LoaderIcon className="size-4 animate-spin" />
+        <div className="animate-spin">
+          <LoaderIcon size={16} />
+        </div>
       ) : (
         <svg
           className="size-5"
