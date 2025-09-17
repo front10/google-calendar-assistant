@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Términos de Servicio - Google Calendar Assistant',
-  description: 'Términos de servicio del Google Calendar Assistant',
+  title: 'Terms of Service - Google Calendar Assistant',
+  description: 'Terms of service for Google Calendar Assistant',
 };
 
 export default function TermsPage() {
@@ -11,160 +11,158 @@ export default function TermsPage() {
       <div className="max-w-4xl mx-auto px-6 py-12">
         <div className="prose prose-lg dark:prose-invert max-w-none">
           <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-8">
-            Términos de Servicio
+            Terms of Service
           </h1>
 
           <p className="text-gray-600 dark:text-gray-400 mb-6">
-            <strong>Última actualización:</strong>{' '}
-            {new Date().toLocaleDateString('es-ES')}
+            <strong>Last updated:</strong>{' '}
+            {new Date().toLocaleDateString('en-US')}
           </p>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
-              1. Aceptación de los Términos
+              1. Acceptance of Terms
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Al utilizar el Google Calendar Assistant, aceptas estar sujeto a
-              estos Términos de Servicio y a nuestra Política de Privacidad. Si
-              no estás de acuerdo con estos términos, no utilices nuestro
-              servicio.
+              By using the Google Calendar Assistant, you agree to be bound by
+              these Terms of Service and our Privacy Policy. If you do not agree
+              to these terms, do not use our service.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
-              2. Descripción del Servicio
+              2. Service Description
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              El Google Calendar Assistant es una aplicación que utiliza
-              inteligencia artificial para ayudarte a gestionar tu Google
-              Calendar. El servicio incluye:
+              The Google Calendar Assistant is an application that uses
+              artificial intelligence to help you manage your Google Calendar.
+              The service includes:
             </p>
             <ul className="list-disc pl-6 text-gray-600 dark:text-gray-400 mb-4">
-              <li>Visualización y gestión de eventos de calendario</li>
-              <li>Creación, edición y eliminación de eventos</li>
-              <li>Verificación de disponibilidad (FreeBusy)</li>
-              <li>Integración con Google Calendar API</li>
-              <li>Interfaz conversacional con IA</li>
+              <li>Calendar event visualization and management</li>
+              <li>Event creation, editing, and deletion</li>
+              <li>Availability checking (FreeBusy)</li>
+              <li>Google Calendar API integration</li>
+              <li>Conversational AI interface</li>
             </ul>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
-              3. Uso Aceptable
+              3. Acceptable Use
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Al usar nuestro servicio, te comprometes a:
+              When using our service, you agree to:
             </p>
             <ul className="list-disc pl-6 text-gray-600 dark:text-gray-400 mb-4">
-              <li>Utilizar el servicio solo para fines legítimos</li>
-              <li>No interferir con el funcionamiento del servicio</li>
-              <li>No intentar acceder a cuentas de otros usuarios</li>
-              <li>Respetar los derechos de propiedad intelectual</li>
-              <li>No usar el servicio para actividades ilegales</li>
+              <li>Use the service only for legitimate purposes</li>
+              <li>Not interfere with the service operation</li>
+              <li>Not attempt to access other users&apos; accounts</li>
+              <li>Respect intellectual property rights</li>
+              <li>Not use the service for illegal activities</li>
             </ul>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
-              4. Cuenta de Usuario
+              4. User Account
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Para utilizar el servicio, debes:
+              To use the service, you must:
             </p>
             <ul className="list-disc pl-6 text-gray-600 dark:text-gray-400 mb-4">
-              <li>Tener una cuenta válida de Google</li>
-              <li>Proporcionar información precisa y actualizada</li>
-              <li>Mantener la confidencialidad de tus credenciales</li>
-              <li>Ser responsable de todas las actividades en tu cuenta</li>
+              <li>Have a valid Google account</li>
+              <li>Provide accurate and up-to-date information</li>
+              <li>Maintain the confidentiality of your credentials</li>
+              <li>Be responsible for all activities on your account</li>
             </ul>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
-              5. Privacidad y Datos
+              5. Privacy and Data
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Tu privacidad es importante para nosotros. El manejo de tus datos
-              personales se rige por nuestra Política de Privacidad, que forma
-              parte integral de estos términos.
+              Your privacy is important to us. The handling of your personal
+              data is governed by our Privacy Policy, which forms an integral
+              part of these terms.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
-              6. Limitación de Responsabilidad
+              6. Limitation of Liability
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              El servicio se proporciona "tal como está". No garantizamos que:
+              The service is provided &quot;as is&quot;. We do not guarantee
+              that:
             </p>
             <ul className="list-disc pl-6 text-gray-600 dark:text-gray-400 mb-4">
-              <li>El servicio esté libre de errores o interrupciones</li>
-              <li>Los resultados sean precisos o confiables</li>
-              <li>El servicio satisfaga tus necesidades específicas</li>
+              <li>The service is free from errors or interruptions</li>
+              <li>Results are accurate or reliable</li>
+              <li>The service meets your specific needs</li>
             </ul>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              En ningún caso seremos responsables por daños indirectos,
-              incidentales o consecuenciales.
+              In no event shall we be liable for indirect, incidental, or
+              consequential damages.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
-              7. Propiedad Intelectual
+              7. Intellectual Property
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              El Google Calendar Assistant y su contenido están protegidos por
-              derechos de autor y otras leyes de propiedad intelectual.
-              Conservamos todos los derechos sobre nuestro servicio.
+              The Google Calendar Assistant and its content are protected by
+              copyright and other intellectual property laws. We retain all
+              rights to our service.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
-              8. Terminación
+              8. Termination
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Podemos suspender o terminar tu acceso al servicio en cualquier
-              momento, con o sin previo aviso, por violación de estos términos o
-              por cualquier otra razón a nuestra discreción.
+              We may suspend or terminate your access to the service at any
+              time, with or without notice, for violation of these terms or for
+              any other reason at our discretion.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
-              9. Modificaciones
+              9. Modifications
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Nos reservamos el derecho de modificar estos términos en cualquier
-              momento. Los cambios entrarán en vigor inmediatamente después de
-              su publicación en la aplicación.
+              We reserve the right to modify these terms at any time. Changes
+              will take effect immediately after publication in the application.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
-              10. Ley Aplicable
+              10. Governing Law
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Estos términos se rigen por las leyes del Estado de California,
-              Estados Unidos, sin consideración a sus principios de conflicto de
-              leyes.
+              These terms are governed by the laws of the State of California,
+              United States, without regard to its conflict of law principles.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
-              11. Contacto
+              11. Contact
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Si tienes preguntas sobre estos términos de servicio, puedes
-              contactarnos en:
+              If you have questions about these terms of service, you can
+              contact us at:
             </p>
             <p className="text-gray-600 dark:text-gray-400">
               <strong>Email:</strong> legal@front10devs.com
               <br />
-              <strong>Dirección:</strong> Front10 Devs, San Francisco, CA, USA
+              <strong>Address:</strong> Front10 Devs, San Francisco, CA, USA
             </p>
           </section>
         </div>
