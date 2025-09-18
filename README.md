@@ -215,8 +215,8 @@ This demo is configured with **OpenAI** as the default chat model. However, with
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/front-10-google-calendar-assistant.git
-cd front-10-google-calendar-assistant
+git clone https://github.com/front10/google-calendar-assistant
+cd google-calendar-assistant
 ```
 
 2. **Install dependencies**
