@@ -160,9 +160,9 @@ export default function TermsPage() {
               contact us at:
             </p>
             <p className="text-gray-600 dark:text-gray-400">
-              <strong>Email:</strong> legal@front10devs.com
+              <strong>Email:</strong> systems@front10.com
               <br />
-              <strong>Address:</strong> Front10 Devs, San Francisco, CA, USA
+              <strong>Address:</strong> Front10, Miami, FL, USA
             </p>
           </section>
         </div>

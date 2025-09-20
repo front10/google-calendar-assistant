@@ -41,3 +41,6 @@ yarn-error.log*
 /playwright-report/
 /blob-report/
 /playwright/*
+
+google-calendar-assistant-technical-article.md
+google-calendar-assistant-technical-article-en.md
