@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { GenerativeUIProviderWrapper } from '@/components/generative-ui-provider';
 import { GoogleAuthHandler } from '@/components/google-auth-handler';
+import { AppFooter } from '@/components/app-footer';
 
 import './globals.css';
 import { SessionProvider } from 'next-auth/react';
@@ -84,7 +85,10 @@ export default async function RootLayout({
             <Toaster position="top-center" />
             <SessionProvider>
               <GoogleAuthHandler />
-              {children}
+              <div className="min-h-screen flex flex-col">
+                <main className="flex-1">{children}</main>
+                <AppFooter />
+              </div>
             </SessionProvider>
           </GenerativeUIProviderWrapper>
         </ThemeProvider>

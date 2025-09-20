@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
+import { ArrowLeftIcon } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Terms of Service - Google Calendar Assistant',
@@ -9,6 +11,17 @@ export default function TermsPage() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       <div className="max-w-4xl mx-auto px-6 py-12">
+        {/* Back Button */}
+        <div className="mb-6">
+          <Link
+            href="/"
+            className="inline-flex items-center space-x-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
+          >
+            <ArrowLeftIcon className="size-4" />
+            <span>Back to Home</span>
+          </Link>
+        </div>
+
         <div className="prose prose-lg dark:prose-invert max-w-none">
           <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-8">
             Terms of Service
